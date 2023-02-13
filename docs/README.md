@@ -2,14 +2,14 @@
 
 |                               	|    	|                                  	|    	|                      	|   	|
 |-------------------------------	|----	|----------------------------------	|----	|----------------------	|---	|
-| Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	|  ✅ 	| Automatic brightness  |  ✖️  	|
+| Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	|  ✅ 	| Automatic brightness  |  ✅ 	|
 | No reboot needed for 1 week      	|  ✅	| Fingerprint reader  	                |  ✖️✖️   | Waydroid		|  ✅	|
 | Torchlight                    	|  ✅	| Boot into UI                     	|  ✅ 	| GPS                 	| ✖️ ✖️  	|
-| Vibration                     	|  ✅ 	| Hardware video playback          	|  ✅ 	| Proximity          	|  ✅ 	|
+| Vibration                     	|  ✅	| Hardware video playback          	|  ✅ 	| Proximity          	|  ✅ 	|
 | Flashlight                    	|  ✅	| Anbox patches                    	|  ✅ 	| Rotation            	|  ✅ 	|
-| Photo                         	|  ✅	| AppArmor patches                 	|  ✅ 	| Touchscreen          	|  ✅ 	|
-| Video                         	|  ✅	| Battery percentage               	|  ✅ 	| Earphones           	|  ✅	|
-| Switching between cameras     	|  ✅	| Offline charging                 	|  ✅	| Loudspeaker          	|  ✅	|
+| Photo                         	| ✖️ ✖️ 	| AppArmor patches                 	|  ✅ 	| Touchscreen          	|  ✅ 	|
+| Video                         	| ✖️ ✖️ 	| Battery percentage               	|  ✅ 	| Earphones           	|  ✅	|
+| Switching between cameras     	| ✖️ ✖️ 	| Offline charging                 	|  ✅	| Loudspeaker          	|  ✅	|
 | Dual SIM functionality        	| ✖️ ✖️  	| Online charging                  	|  ✅ 	| Microphone          	|  ✅	|
 | Carrier info, signal strength 	|  ✅ 	| SD card detection and access     	|  ✅ 	| Volume control       	|  ✅ 	|
 | Data connection               	|  ✅ 	| RTC time                         	|  ✅ 	| Pin unlock           	|  ✅ 	|
@@ -26,11 +26,12 @@
 - **✖️✖️** *Global issue.*
 
 ## Requirements
-- Android 10 firmware for your device:
-  - Redmi Note 7: https://xiaomifirmwareupdater.com/miui/lavender/stable/V11.0.6.0.PFGMIXM/
+- Android 9 firmware for your device (PQ3B.190801.002):
+- Pixel 3a: https://developers.google.com/android/images#sargo
+- Pixel 3a XL: https://developers.google.com/android/images#bonito
 
 ## Files
-- Download the latest fastbootable image: [droidian-UNOFFICIAL-phosh-phone-xiaomi_lavender-api28-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-lavender/droidian-images/releases/tag/nightly).
+- Download the latest fastbootable image: [droidian-UNOFFICIAL-phosh-phone-google_sargo-api28-arm64-nightly_XXXXXXX.zip](https://github.com/droidian-sargo/droidian-images/releases/tag/nightly).
 
 ## Installation
 * Extract the archive
